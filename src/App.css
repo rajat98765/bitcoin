@@ -1,0 +1,30 @@
+body{
+  text-align: center;
+}
+.bar{
+  position: absolute;
+  background-color: blue;
+  width: 40px;
+  margin: 0px 10px;
+  bottom: 0;
+  
+}
+
+.column{
+  position: relative;
+  text-align: center;
+  color: black;
+  float: left;
+  width: 60px;
+  height: 100%;
+}
+
+input, input[type="text"] {
+  height: 50px;
+  width: min(40%,300px);
+  text-align:center;
+  border: none;
+  outline: none;
+  border: 1px solid black !important;
+  border-radius: 5px;
+}
